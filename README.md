@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solution](solution.jpg)
+![My Solution](./solution.png)
 
 ### Links
 
