@@ -255,6 +255,7 @@ h3 {
 .attribution {
   color: hsl(var(--clr-white) / 0.5);
   text-align: center;
+  margin-top: 2rem;
 }
 .attribution > a:first-child {
   color: hsl(var(--clr-white) / 0.5);
