@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -18,44 +17,50 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-
     <title>Frontend Mentor | NFT preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
   </head>
   <body>
-    <div class="card">
-      <h1 class="card__header">Equilibrium #3429</h1>
-      <div class="card__body">
-        <p class="card__text">
-          Our Equilibrium collection promotes balance and calm.
-        </p>
-        <div>
-          <img src="images/icon-ethereum.svg" alt="" />
-          <p>0.041 ETH</p>
+    <div class="card bg-neutral-200 flow">
+      <div class="card__image">
+        <img src="images/image-equilibrium.jpg" alt="" />
+      </div>
+      <div class="card__body flow">
+        <a href="#">
+          <h1 class="card__heading text-white">Equilibrium #3429</h1>
+        </a>
+        <div class="card__content flow">
+          <p class="card__text text-white">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="card__icon flex">
+            <div class="flex">
+              <img src="images/icon-ethereum.svg" alt="" />
+              <p class="price text-secondary-100">0.041 ETH</p>
+            </div>
+            <div class="flex">
+              <img src="images/icon-clock.svg" alt="" />
+              <p class="time text-white">3 days left</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <img src="images/icon-clock.svg" alt="" />
-          <p>3 days left</p>
+        <div class="card__footer flex">
+          <img class="card__avatar" src="images/image-avatar.png" alt="" />
+          <p class="card__author">Creation of <a href="#">Jules Wyvern</a></p>
         </div>
       </div>
-      Creation of Jules Wyvern
     </div>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Tanvir Ahmed Talukder</a>.
+      >. Coded by
+      <a
+        class="coder"
+        href="https://www.linkedin.com/in/rahidt/"
+        target="_blank"
+        >Tanvir Ahmed Talukder</a
+      >.
     </div>
   </body>
 </html>
